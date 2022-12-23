@@ -10,6 +10,8 @@ return require('packer').startup(function(use)
 		'nvim-telescope/telescope.nvim', tag = '0.1.0',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+    use { "ellisonleao/gruvbox.nvim" }
+    use { "sainnhe/gruvbox-material" }
 	use({
 		'rose-pine/neovim',
 		as = 'rose-pine',
@@ -39,4 +41,7 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+    use 'othree/html5.vim'
+    use 'pangloss/vim-javascript'
+    use 'evanleck/vim-svelte'
 end)

@@ -109,6 +109,21 @@ _G.packer_plugins = {
     path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["html5.vim"] = {
+    loaded = true,
+    path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/html5.vim",
+    url = "https://github.com/othree/html5.vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -159,6 +174,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    url = "https://github.com/pangloss/vim-javascript"
+  },
+  ["vim-svelte"] = {
+    loaded = true,
+    path = "/home/sam.wighton/.local/share/nvim/site/pack/packer/start/vim-svelte",
+    url = "https://github.com/evanleck/vim-svelte"
   }
 }
 
