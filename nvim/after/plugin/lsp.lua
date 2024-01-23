@@ -5,9 +5,10 @@ lsp.preset("recommended")
 lsp.ensure_installed({
     'tsserver',
     'eslint',
-    'sumneko_lua',
-    'rust_analyzer',
+    'svelte',
 })
+
+require'lspconfig'.rust_analyzer.setup({})
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}

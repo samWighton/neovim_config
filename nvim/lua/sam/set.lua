@@ -19,4 +19,4 @@ vim.opt.updatetime = 50
 vim.opt.scrolloff = 5
 vim.opt.signcolumn = "yes"
 
-
+vim.opt.mouse = ""
