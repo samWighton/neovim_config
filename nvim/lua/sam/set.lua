@@ -20,3 +20,5 @@ vim.opt.scrolloff = 5
 vim.opt.signcolumn = "yes"
 
 vim.opt.mouse = ""
+
+vim.opt.fixeol = false
