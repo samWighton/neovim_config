@@ -1,3 +1,3 @@
-require("sam")
-require("sam.remap")
-require("sam.packer")
+require("config.lazy")
+require("config.set")
+require("config.telescope")
