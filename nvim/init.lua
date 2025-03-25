@@ -155,6 +155,20 @@ vim.keymap.set('n', '<leader>m', 'ct_')
 vim.keymap.set('', '<F1>', '<Esc>')
 vim.keymap.set('i', '<F1>', '<Esc>')
 
+
+
+-- local builtin = require('telescope.builtin')
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+-- vim.keymap.set('n', '<leader>f', builtin.git_files, {})
+-- vim.keymap.set('n', '<leader>g', function()
+-- 	builtin.grep_string({ search = vim.fn.input("Grep > ") })
+-- end)
+
+-- vim.keymap.set("n", "<leader>n", function ()
+--     vim.cmd.tabe()
+--     builtin.git_files()
+-- end)
+
 -------------------------------------------------------------------------------
 --
 -- autocommands
@@ -380,7 +394,7 @@ require("lazy").setup({
 
 			-- Global mappings.
 			-- See `:help vim.diagnostic.*` for documentation on any of the below functions
-			vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
+			-- vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
 			vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 			vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 			vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
